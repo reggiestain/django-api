@@ -15,7 +15,6 @@ from django.utils.decorators import method_decorator
 from .forms import UploadFileForm  
 from .FileSerializer import FileSerializer
 from docx2pdf import convert
-from pdf2docx import Converter
 
 
 class ConvertDocView(APIView):
