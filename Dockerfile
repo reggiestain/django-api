@@ -18,4 +18,3 @@ COPY ./app /app
 RUN adduser -D dev5
 
 USER dev5
-
